@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  nav{
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  }
+
+  .container{
+  	padding: 15px;
+  }

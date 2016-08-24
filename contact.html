@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body class="grey darken-4">
+    <div class="container grey lighten-4">
+        <nav>
+            <div class="nav-wrapper blue-grey">
+                <a href="#" class="brand-logo">Woodhouse</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Meet Us</a></li>
+                    <li><a href="#">Our Vision</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+    	</nav>
+        <div class="row">
+            <form role="form" method="post" action="contact.php">
+                <h2>Contact Us</h2>
+                <div class="input-field col s6 offset-s3">
+                    <input type="text" name="name" placeholder="Name" class="validate">
+                </div>
+                <div class="input-field col s6 offset-s3">
+                    <input type="email" name="email" placeholder="e-mail" class="validate">
+                </div>
+                <div class="input-field col s6 offset-s3">
+                    <textarea class="materialize-textarea" placeholder="Message" name="message"></textarea>
+                </div>
+                <div class="input-field col s6 offset-s3">
+                    <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+</body>
+
+</html>
