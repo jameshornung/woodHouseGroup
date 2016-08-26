@@ -49,7 +49,7 @@ if (!$errName && !$errEmail && !$errMessage) {
 </head>
 
 <body class="grey darken-4">
-<div class="container">
+<div class="container grey lighten-4">
 
     <!--NAVBAR -->
     <div class="row">
@@ -80,15 +80,15 @@ if (!$errName && !$errEmail && !$errMessage) {
                 <h2>Contact Us</h2>
                 <div class="input-field col s6 offset-s3">
                     <input type="text" name="name" placeholder="Name" class="validate" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-                    <?php echo "<p class='text-danger'>$errName</p>";?>
+                    <?php echo "<p class='red-text center'>$errName</p>";?>
                 </div>
                 <div class="input-field col s6 offset-s3">
                     <input type="email" name="email" placeholder="e-mail" class="validate" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-                    <?php echo "<p class='text-danger'>$errEmail</p>";?>
+                    <?php echo "<p class='red-text center'>$errEmail</p>";?>
                 </div>
                 <div class="input-field col s6 offset-s3">
                     <textarea class="materialize-textarea" placeholder="Message" name="message" value="<?php echo htmlspecialchars($_POST['message']); ?>"></textarea>
-                    <?php echo "<p class='text-danger'>$errMessage</p>";?>
+                    <?php echo "<p class='red-text center'>$errMessage</p>";?>
                 </div>
                 <div class="input-field col s6 offset-s3">
                     <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
