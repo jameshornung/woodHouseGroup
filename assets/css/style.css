@@ -26,6 +26,11 @@ nav{
   padding-right: 12px;
 }
 
+.logoDiv {
+  border: 1px solid black;
+  margin-right: 15px;
+}
+
 /*+++++++++++++++++++++++++++
 FOOTER
 +++++++++++++++++++++++++++*/
@@ -61,12 +66,21 @@ MAIN PAGE
 
 .mainPageHeaderDiv{
   border-radius: 2px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .headhotDiv{
   margin-bottom: 100px;
+}
+
+.mainPageTagline{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.logo{
+  width: 125px;
+  margin-right: 50px;
+  margin-top: 10px;
 }
 
 /*+++++++++++++++++++++++++++
