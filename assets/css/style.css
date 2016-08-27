@@ -68,8 +68,17 @@ MAIN PAGE
   border-radius: 2px;
 }
 
+.mainPageHeading{
+  font-weight: bold;
+}
+
 .headhotDiv{
   margin-bottom: 100px;
+}
+
+.tagLine{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .mainPageTagline{
@@ -81,6 +90,11 @@ MAIN PAGE
   width: 125px;
   margin-right: 50px;
   margin-top: 10px;
+}
+
+.companyInfo{
+  border-radius: 2px;
+  padding: 10px;
 }
 
 /*+++++++++++++++++++++++++++
