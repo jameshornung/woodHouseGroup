@@ -35,15 +35,15 @@ nav{
 FOOTER
 +++++++++++++++++++++++++++*/
 .footerDiv {
-  margin-top: 75px;
+  margin-top: 40px;
 }
 
 .footerLinks {
-  color: #eeeeee;
+  color: #80deea;
 }
 
 .footerLinks:hover {
-  color: #00bcd4;
+  color: #ff3d00;
 }
 
 .copywrightText {
@@ -105,4 +105,25 @@ ABOUT PAGE
   width: 150px;
   padding-right: 15px;
   margin-top: 10px;
+}
+
+/*+++++++++++++++++++++++++++
+TESTIMONIAL PAGE
++++++++++++++++++++++++++++*/
+.testimonialContent{
+  margin-top: 100px;
+}
+
+.pictureHolder{
+  overflow: auto;
+}
+
+.groupPhoto{
+  width: 50%;
+  border: 2px solid #616161;
+}
+
+.testimonialText{
+  width: 50%;
+  padding-left: 10px;
 }
