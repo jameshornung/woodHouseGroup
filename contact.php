@@ -102,18 +102,18 @@ if (!$errName && !$errEmail && !$errMessage) {
  <!-- container end?  -->  
 </div>
 
-<!-- FOOTER -->
+<<!-- FOOTER -->
     <div class="footerDiv">
         <footer class="page-footer grey darken-4">
             <div class="container">
                 <div class="row">
                     <div class="col s12">
-                        <h5 class="grey-text text-lighten-3">The Woodhouse Group</h5>
+                        <h5 class="deep-orange-text text-accent-3">The Woodhouse Group</h5>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col s4">
-                        <p class="grey-text text-lighten-3">Street Address<br>
+                        <p class="cyan-text text-lighten-3">Street Address<br>
                         Austin, TX 78741<br>
                         Phone: 999-999-9999</p>
                     </div>
@@ -139,7 +139,7 @@ if (!$errName && !$errEmail && !$errMessage) {
     </div>
 
 
-
+<!-- Javascript Files -->
     <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
