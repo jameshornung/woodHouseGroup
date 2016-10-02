@@ -42,8 +42,8 @@ nav{
     font-size: 27px;
   }
 
-  .logo{
-    height: 50px;
+  .woodhouseLogo{
+    width: 375px;
   }
 
 }
@@ -70,55 +70,14 @@ FOOTER
 MAIN PAGE
 +++++++++++++++++++++++++++*/
 
-.headshot{
-  max-height: 300px;
-  max-width: 100%;
-}
-
-.headshotContainer{
-  text-align: center;
-  margin-bottom: 100px;
-}
-
-.mainPageHeaderDiv{
-  border-radius: 2px;
-}
-
 .mainPageHeading{
   font-weight: bold;
 }
 
-.headhotDiv{
-  margin-bottom: 100px;
-}
-
-.tagLine{
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.mainPageTagline{
-  margin-top: 10px;
-  font-size: 20px;
-}
-
-.logo{
-  width: 125px;
-  margin-right: 50px;
-  margin-top: 10px;
-}
-
-.companyInfo{
-  border-radius: 2px;
-  padding: 10px;
-}
-
 .portfolioCard{
-  /*max-height: 350px;*/
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 70px;
 }
 
 .mainHeadshot{
@@ -128,6 +87,25 @@ MAIN PAGE
 .material-icons{
   width: 50px;
 }
+
+.headshots{
+  margin-bottom: 150px;
+}
+
+.taglineCard{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+#whiteLogo{
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 /*+++++++++++++++++++++++++++
 ABOUT PAGE
 +++++++++++++++++++++++++++*/
@@ -138,11 +116,15 @@ ABOUT PAGE
   margin-top: 10px;
 }
 
+.bioRow{
+  margin-top: 60px;
+}
+
 /*+++++++++++++++++++++++++++
 TESTIMONIAL PAGE
 +++++++++++++++++++++++++++*/
 .testimonialContent{
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .pictureHolder{
@@ -154,8 +136,16 @@ TESTIMONIAL PAGE
   border: 2px solid #616161;
 }
 
-.testimonialText{
+.testimonial-tmha{
   width: 50%;
   padding-left: 10px;
   margin-top: 0px;
+}
+
+/*+++++++++++++++++++++++++++
+TESTIMONIAL PAGE
++++++++++++++++++++++++++++*/
+
+.clientsPhoto{
+  width: 60%;
 }

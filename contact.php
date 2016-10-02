@@ -49,20 +49,22 @@ if (!$errName && !$errEmail && !$errMessage) {
 </head>
 
 <body class="grey darken-4">
-<div class="container grey lighten-4">
+<div class="container white">
 
     <!--NAVBAR -->
     <div class="row">
-        <div class="col l5 hide-on-med-and-down mainPageHeaderDiv">
-            <h4 class="mainPageHeading grey-text text-darken-3">The Woodhouse Group</h4>
+        <div class="col l6 hide-on-med-and-down mainPageHeaderDiv">
+            <div>
+                <img src="assets/images/logo.jpg" alt="The Woodhouse Group" class="woodhouseLogo">
+            </div>
         </div>
-        <div class="col l7 s12">
+        <div class="col l6 s12">
             <ul class="right">
-                <a class="btn waves-effect waves-light blue darken-3 navButton" href="index.html">Main</a>
-                <a class="btn waves-effect waves-light blue darken-3 navButton" href="about.html">About</a>
-                <a class="btn waves-effect waves-light blue darken-3 navButton" href="testimonials.html">Testimonials</a>
-                <a class="btn waves-effect waves-light blue darken-3 navButton" href="clients.html">Clients</a>
-                <a class="btn waves-effect waves-light blue darken-3 navButton" href="contact.php">Contact</a>
+                <a class="btn waves-effect waves-light blue darken-3 navButton" href="index">Main</a>
+                <a class="btn waves-effect waves-light blue darken-3 navButton" href="about">About</a>
+                <a class="btn waves-effect waves-light blue darken-3 navButton" href="testimonials">Testimonials</a>
+                <a class="btn waves-effect waves-light blue darken-3 navButton" href="clients">Clients</a>
+                <a class="btn waves-effect waves-light blue darken-3 navButton" href="contact">Contact</a>
             </ul>
             <ul class="side-nav right" id="mobile-demo">
                 <li><a href="index">Main</a></li>
@@ -102,7 +104,7 @@ if (!$errName && !$errEmail && !$errMessage) {
  <!-- container end?  -->  
 </div>
 
-<<!-- FOOTER -->
+<!-- FOOTER -->
     <div class="footerDiv">
         <footer class="page-footer grey darken-4">
             <div class="container">
@@ -113,19 +115,19 @@ if (!$errName && !$errEmail && !$errMessage) {
                 </div>
                 <div class="row">
                     <div class="col s4">
-                        <p class="cyan-text text-lighten-3">Street Address<br>
-                        Austin, TX 78741<br>
-                        Phone: 999-999-9999</p>
+                        <p class="cyan-text text-lighten-3">305 West 13th Street<br>
+                        Austin, TX 78701<br>
+                        Phone: (512) 478-9937</p>
                     </div>
                     <div class="col s4">
                     </div>
                     <div class="col s4">
                         <ul class="right">
-                          <li><a class="footerLinks" href="index.html">- Main</a></li>
-                          <li><a class="footerLinks" href="about.html">- About</a></li>
-                          <li><a class="footerLinks" href="testimonials.html">- Testimonals</a></li>
-                          <li><a class="footerLinks" href="clients.html">- Clients</a></li>
-                          <li><a class="footerLinks" href="contact.php">- Contact</a></li>
+                          <li><a class="footerLinks" href="index">Main</a></li>
+                          <li><a class="footerLinks" href="about">About</a></li>
+                          <li><a class="footerLinks" href="testimonials">Testimonals</a></li>
+                          <li><a class="footerLinks" href="clients">Clients</a></li>
+                          <li><a class="footerLinks" href="contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
