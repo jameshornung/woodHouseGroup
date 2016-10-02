@@ -42,6 +42,10 @@ nav{
     font-size: 27px;
   }
 
+  .logo{
+    height: 50px;
+  }
+
 }
 /*+++++++++++++++++++++++++++
 FOOTER
@@ -109,6 +113,21 @@ MAIN PAGE
   padding: 10px;
 }
 
+.portfolioCard{
+  /*max-height: 350px;*/
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+
+.mainHeadshot{
+  height: 350px;
+}
+
+.material-icons{
+  width: 50px;
+}
 /*+++++++++++++++++++++++++++
 ABOUT PAGE
 +++++++++++++++++++++++++++*/
