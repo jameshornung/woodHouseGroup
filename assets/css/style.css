@@ -89,7 +89,7 @@ MAIN PAGE
 }
 
 .headshots{
-  margin-bottom: 150px;
+  margin-bottom: 75px;
 }
 
 .taglineCard{
@@ -104,6 +104,31 @@ MAIN PAGE
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+}
+
+@media only screen and (max-width : 775px){
+  .portfolioCard{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mainHeadshot{
+    height: 250px;
+  }
+}
+
+  @media only screen and (max-width : 1025px){
+  .mainHeadshot{
+    height: 300px;
+  }
+
+  @media only screen and (max-width : 415px){
+    .portfolioCard{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
 }
 
 /*+++++++++++++++++++++++++++
