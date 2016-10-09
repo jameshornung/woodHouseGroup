@@ -160,6 +160,15 @@ CLIENTS PAGE
   border: 2px solid #616161;
 }
 
+@media (max-width : 415px){
+    .clientsPhoto{
+    width: 90%;
+  }
+    .pictureHolder{
+      margin-top: 15px;
+    }
+}
+
 /*+++++++++++++++++++++++++++
 TESTIMONIAL PAGE
 +++++++++++++++++++++++++++*/
@@ -186,10 +195,12 @@ TESTIMONIAL PAGE
   margin-top: 0px;
 }
 
-@media only (max-width : 1033px){
+@media (max-width : 415px){
     .groupPhoto{
-      width: 80%;
-      border: 2px solid #616161;
+      width: 90%;
+    }
+    .testimonialContent{
+      margin-top: 15px;
     }
 }
 
