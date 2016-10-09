@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	// $(".button-collapse").sideNav();
+	$(".button-collapse").sideNav();
 	
 	$(".card").mouseenter(function(e){
 	  if ($(this).find('> .card-reveal').length) {
