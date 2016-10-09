@@ -64,8 +64,7 @@ if (!$errName && !$errEmail && !$errMessage) {
             </div>
         </div>
         <div class="col l6 s12 nav-wrapper">
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons hide-on-large-only">menu</i></a>
-            <ul class="right hide-on-med-and-down">
+            <ul class="right hide-on-small-only">
                 <a class="btn waves-effect waves-light blue darken-3 navButton" href="index">Main</a>
                 <a class="btn waves-effect waves-light blue darken-3 navButton" href="about">About</a>
                 <a class="btn waves-effect waves-light blue darken-3 navButton" href="testimonials">Testimonials</a>
@@ -76,10 +75,10 @@ if (!$errName && !$errEmail && !$errMessage) {
               <li><a href="index">Home</a></li>
               <li><a href="about">About</a></li>
               <li><a href="testimonials">Testimonials</a></li>
-              <li><a href="contact">Clients</a></li>
+              <li><a href="clients">Clients</a></li>
               <li><a href="contact">Contact</a></li>
             </ul>
-            <!-- <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons hide-on-med-and-up">menu</i></a> -->
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons hide-on-med-and-up">menu</i></a>
         </div>
     </div>
 
@@ -119,7 +118,7 @@ if (!$errName && !$errEmail && !$errMessage) {
 
     <div class="row" id="whiteLogo">
     <div class="col s12">
-      <img src="assets/images/whiteLogo.jpg">
+      <img src="assets/images/whiteLogo.jpg" class="footerLogo">
     </div>
   </div>
  
@@ -165,6 +164,11 @@ if (!$errName && !$errEmail && !$errMessage) {
     <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $('document').ready(function(){
+        $(".button-collapse").sideNav();
+      })
+    </script>
 </body>
 
 </html>
