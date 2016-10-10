@@ -74,13 +74,13 @@ MAIN PAGE
 }
 
 .portfolioCard{
-  width: 95%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .mainHeadshot{
-  height: 350px;
+  /*height: 340px;*/
 }
 
 .material-icons{
