@@ -115,16 +115,16 @@ MAIN PAGE
     margin-right: auto;
   }
 
-  .mainHeadshot{
+  /*.mainHeadshot{
     height: 250px;
-  }
+  }*/
 }
 
-  @media (max-width : 1025px){
+  /*@media (max-width : 1025px){
   .mainHeadshot{
     height: 300px;
   }
-}
+}*/
 
   @media (max-width : 415px){
     .portfolioCard{

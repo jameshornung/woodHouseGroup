@@ -36,8 +36,6 @@ if (!$errName && !$errEmail && !$errMessage) {
     }
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -81,7 +79,6 @@ if (!$errName && !$errEmail && !$errMessage) {
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons hide-on-med-and-up">menu</i></a>
         </div>
     </div>
-
 
 <!-- Contact Content -->
     <div class="row">
